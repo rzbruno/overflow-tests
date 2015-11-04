@@ -1,0 +1,17 @@
+Usually there are two of main ways to attacks in heap overflow:
+
+* Malloc - corrupt pointer between blocks;
+* Corrupt shared memory between process... even OS can't protect the memory, the process will crash.
+
+apache, DDOS
+zombie processes
+overflows - shared memory
+
+=== Exploit heap-metadata ===
+* http://www.mathyvanhoef.com/2013/02/understanding-heap-exploiting-heap.html
+* https://www.blackhat.com/presentations/bh-usa-07/Ferguson/Whitepaper/bh-usa-07-ferguson-WP.pdf
+* https://people.cs.umass.edu/~emery/pubs/ccs03-novark.pdf
+* https://www.immunityinc.com/downloads/Heap_Singapore_Jun_2007.pdf
+* http://blogs.technet.com/b/srd/archive/2009/08/04/preventing-the-exploitation-of-user-mode-heap-corruption-vulnerabilities.aspx
+* https://pdos.csail.mit.edu/6.828/2012/xv6.html
+* https://pdos.csail.mit.edu/6.828/2012/xv6/book-rev7.pdf
